@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entrée</title>
+	<style type="text/css">
+	*{ 
+	font-family: 'Quicksand', cursive;
+	color: rgb(154,45,191);
+	}
+
+
+	/*///// HORIZONTAL INTERFACE*/
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+		body{background-image: url("img/Mexico.gif");}
+		#pagewrap{
+			padding: 5px;
+			width: 1200px;
+			margin: 20px;
+			background-color:grey;
+		}
+		#Fajita{
+		padding: 5px;
+			width: 45%;
+			margin: 0px 5px 5px 5px;
+		  display: inline-block; 
+		  float: left;}
+
+#Enchilada{
+		width:45%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: right;
+		  }
+	
+#quesadilla{
+		width: 45%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		clear: left;
+		float: left;
+
+		}
+#Tacos{
+		width: 45%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: right;}
+#Pilaf{
+		width: 45%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: left;}
+#CEMITAPOBLANA{
+		width: 45%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: right;}
+#p{font-size: 12}
+#h2{font-size: 20}
+
+
+
+/*****************************************
+	******************************************
+	media queries
+	******************************************
+	*****************************************/
+	/*For 980px or less*/
+	@media screen and (max-width:980px){
+			#pagewrap{
+				width: 94%
+			}
+			#content{
+				width: 41%;
+				padding:1% 4%;
+			}
+				#fajita{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;
+			}
+
+			#Enchilada{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;
+			}
+				#quesadilla{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;}
+
+					#Tacos{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;}
+					#Pilaf{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;}
+					#CemitaPoblana{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;}
+
+			header, footer{
+				padding: 1% 4%
+			}
+	}
+@media screen and(max-width: 600px){
+	#content{
+	width: auto;
+	float: none;
+		}
+	#Fajita{
+	width: auto;
+	float: left;
+	margin-left: 0px;
+		}
+			#Enchilada{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+
+					#quesadilla{
+	width: auto;
+	float: left;
+	margin-left: 0px;
+		}
+#Tacos{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+				#pilaf{
+	width: auto;
+	float: left;
+	margin-left: 0px;}
+	#Cemitapoblana{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+		
+	#sidebar{
+	width: auto;
+	float: none;
+		}
+	}
+/**for 480px or less**/
+@media screen and(max-width: 480px){
+header{
+	height: auto;
+	}
+	h1{
+		font-size: 2em;
+	}	
+	#sidebar{
+		display: none;
+	}
+			}
+	#content{
+		background-color: #f8f8f8;
+	}
+	#sidebar{
+		background-color: #f0efef;
+	}
+		header, #content, #middle, #sidebar{
+			margin-bottom: 5px
+		}	
+		#pagewrap, header, #content, #middle, #sidebar, footer{
+			border: solid 1px #ccc;
+		}
+		</style>	
+</head>
+<body>
+
+<div id="pagewrap">
+	<header id="logo"><img src="img/spoon.jpg" height="40px" width="40px"><span id="logobg">ElChapo's</span>
+	</header>
+
+    
+    <nav id="navigation">
+		<ul>
+  			<li><a class="active" href="Menu Project.html">Home</a></li>
+  			<li><a href="appetizers.html">Appetizers</a></li>
+  			<li><a href="Drinks.html">Drinks</a></li>
+  			<li><a href="Entrée.html">Entrée</a></li>
+		</ul>
+   </nav>
+
+
+	 <header>
+	<h1><a href= "Menu project.html">ElChapo's</a>
+	<center><font size = "27">Drinks Menu</font></center>
+		</h1>
+	 </header>
+	 	<section id= "Fajita">
+	 		<h2>
+	 			 Fajita 
+	 		</h2>
+	 		<p>Price: 9.00$</p>
+	 		<p>Description:onions, chicken, and other assorted vegetables cooked in a pan, sizzling to perfection.</p>
+	 			<img src="img/Chicken-Fajitas.jpg" height = "370px" width = "300px">
+	 	</section>
+
+	 	<section id= "Enchillada">
+	 		<h2>
+	 		<font size = "20">	Enchilada</font>
+	 		</h2>
+	 				<p>Price: 8.00$</p>
+	 		<p>Description:3 soft shells stuffed with beef, drenched in cheese and refried beans.</p>
+	 			<img src="img/Enchilada.jpg" height = "370px" width = "300px">
+	 	</section>
+
+	 	<section id="quesadilla">
+	 	<h2>
+	 		<font size = "20">	Quesadilla</font>
+	 		</h2>
+	 		<p>Price: 7.00$</p>
+	 		<p>Description: soft shelled tacos filled with chicken and spices. Comes with avacado dressing for dipping.</p>
+	 		<img src="img/quesadilla.jpg" height="370px" width="300px">
+	 	</section>
+
+
+	 	<section id="Tacos">
+	 	<h2>
+	 		<font size = "20">Tacos</font>
+	 		</h2>
+	 		<p>Price: 2.00 per taco</p>
+	 		<p>Description: Soft shelled tacos That can be filled with any non-premium meat.</p>
+
+	 		<img src="img/Tacos.jpg" height="370px" width="300px">
+	 	</section>
+	 		<section id="Pilaf">
+	 	<h2>
+	 		<font size = "20">		Pilaf </font>
+	 		</h2>
+	 		<p>Price:5.00$</p>
+	 		<p>Description:Mixed rice and chicken in a bowl</p>
+
+	 		<img src="img/Pilaf.jpg" height="370px" width="300px">
+	 	</section>
+	 		<section id="CEMITAPOBLANA">
+	 	<h2>
+	 		<font size = "20">	Cemita Poblana</font>
+	 		</h2>
+	 		<p>Price: 10.0$</p>
+	 		<p> Description: A fried cutlet on a seeded bun; comes with avacado, chees, onions, and Chipotle.</p>
+
+	 		<img src="img/CemitaPoblana.jpg" height="370px" width="300px">
+	 	</section>
+	 	<footer><p>*all products are gluten-free</p></footer>
+</div>
+</body>
+</html>

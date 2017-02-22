@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drinks</title>
+	<style type="text/css">
+		*{ 
+	font-family: 'Quicksand', cursive;
+	color: rgb(154,45,191);
+	}
+	/*///// HORIZONTAL INTERFACE*/
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+		body{background-image: url("img/Mexico.gif");}
+
+		#pagewrap{
+			
+			width: 1200px;
+			margin: 20px;
+			background-color:purple;
+		}
+#PinaColada{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: left;
+		}
+#horchata{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: right;
+		}
+	
+#pulque{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		clear: left;
+			float: left;
+		}
+#Tejuino{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+			float: right;
+		}
+		
+#Paloma{
+	width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		clear: left;
+			float: left;
+		}
+#michelada{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+			float: right;	
+		}
+#p{font-size: 12}
+#h2{font-size: 20}
+
+
+/*****************************************
+	******************************************
+	media queries
+	******************************************
+	*****************************************/
+	/*For 980px or less*/
+	@media screen and (max-width:980px){
+			#pagewrap{
+				width: 94%
+			}
+			#content{
+				width: 41%;
+				padding:1% 4%;
+			}
+				#pinacolada{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;
+			}
+
+			#Horchata{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;
+			}
+				#Pulque{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;}
+
+					#Tejuino{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;}
+					#Paloma{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;}
+					#Michelada{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;}
+
+			header, footer{
+				padding: 1% 4%
+			}
+	}
+@media screen and(max-width: 600px){
+	#content{
+	width: auto;
+	float: none;
+		}
+	#pinacolada{
+	width: auto;
+	float: left;
+	margin-left: 0px;
+		}
+			#horchata{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+
+					#pulque{
+	width: auto;
+	float: left;
+	margin-left: 0px;
+		}
+#Tejuino{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+				#paloma{
+	width: auto;
+	float: left;
+	margin-left: 0px;}
+	#michelada{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+		
+	#sidebar{
+	width: auto;
+	float: none;
+		}
+	}
+/**for 480px or less**/
+@media screen and(max-width: 480px){
+header{
+	height: auto;
+	}
+	h1{
+		font-size: 2em;
+	}	
+	#sidebar{
+		display: none;
+	}
+			}
+	#content{
+		background-color: #f8f8f8;
+	}
+	#sidebar{
+		background-color: #f0efef;
+	}
+		header, #content, #middle, #sidebar{
+			margin-bottom: 5px
+		}	
+		#pagewrap, header, #content, #middle, #sidebar, footer{
+			border: solid 1px #ccc;
+		}
+		</style>
+</head>
+<body>
+<div id="pagewrap">
+<header id="logo"><img src="img/spoon.jpg" height="40px" width="40px"><span id="logobg">ElChapo's</span></header>
+    
+    <nav id="navigation">
+		<ul>
+  			<li><a class="active" href="Menu Project.html">Home</a></li>
+  			<li><a href="appetizers.html">Appetizers</a></li>
+  			<li><a href="Drinks.html">Drinks</a></li>
+  			<li><a href="Entrée.html">Entrée</a></li>
+		</ul>
+   </nav>
+	 <header>
+	<h1><a href= "Menu project.html">ElChapo's</a>
+	<center><font size = "27">Drinks Menu</font></center>
+		</h1>
+	 </header>
+	 	<section id= "PinaColada">
+	 		<h2>
+	 			<font size="24">PinaColada</font></h2>
+	 			<p>Price: 3.50$</p>
+	 			<p>Description: tomato, basil, garlic, and onions chopped up into a paste for your enjoyment</p>
+	 		
+	 			<img src="img/PinaColada.jpg" height = "370px" width = "300px">
+	 	</section>
+	 <section id= "Horchata">
+	 		<h2><font size="24">Horchata</font></h2>
+	 		<p>Price:3.00$</p>
+	 		<p>Description:dessert-esk almond based drink for those with a sweet tooth</p>
+	 			<img src="img/Horchata.jpg" height = "370px" width = "300px">
+
+	 	</section>
+	 <section id="pulque">
+	 	<h2>
+	 		<font size="20">
+	 			Pulque
+	 		</font>
+	 	</h2>
+	 		<p>Price:5.00$</p>
+	 		<p>Description:fermented cactus juice long sought after.</p>
+	 			<img src="img/pulque.jpg" height="370px" width="300px">
+	 	</section>
+	 <section id="tejuino">
+	 	<h2>
+	 		<font size="20">
+	 			tejuino
+	 		</font>
+	 	</h2>
+	 		<p>Price:4.00$</p>
+	 		<p>Description:low alchohol drink that is popular at parties because of its taste.</p>
+	 			<img src="img/tejuino.jpg" height="370px" width="300px">
+	 			</section>
+	 			<section id="Paloma">
+	 	<h2>
+	 			Paloma
+	 	</h2>
+	 		<p>Price:3.00$</p>
+	 		<p>Description: A combination of Tequila and other spices.</p>
+	 			<img src="img/pBoi.jpg" height="370px" width="300px">
+	 			</section>
+	 <section id="michelada">
+	 	<h2>
+	 		<font size="20">
+	 			michelada
+	 		</font>
+	 	</h2>
+	 		<p>Price:3.00$</p>
+	 		<p>Description: An alchoholic drink comprised of beer, lime juice, and assorted sauces.</p>
+	 			<img src="img/michelada.jpg" height="370px" width="300px">
+	 			</section>
+	 			<footer><p>*all products are gluten-free</p></footer>
+	 		</div>
+</body>
+</html>

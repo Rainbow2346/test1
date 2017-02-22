@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appetizers</title>
+	<style type="text/css">
+	*{ 
+	font-family: 'Quicksand', cursive;
+	/*color: rgb(154,45,191);*/
+	}
+
+
+	/*///// HORIZONTAL INTERFACE*/
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+	body{background-image: url("img/Mexico.gif");}
+		#pagewrap{
+			padding: 5px;
+			width: 1200px;
+			margin: 20px auto;
+			background-color:purple;
+		}
+		#Salsa{
+		padding: 5px;
+			width: 40%;
+			margin: 0px 5px 5px 5px;
+		  display: inline-block; }
+
+#Guacamole{
+		width:40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: right;
+		  }
+	
+#Taquitos{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;}
+#BeanDip{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: right;}
+#Eggroll{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: left;}
+#PicoDeGallo{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		
+		float: right;
+		}
+
+
+
+/*****************************************
+	******************************************
+	media queries
+	******************************************
+	*****************************************/
+	/*For 980px or less*/
+	@media screen and (max-width:980px){
+			#pagewrap{
+				width: 94%
+			}
+			#content{
+				width: 41%;
+				padding:1% 4%;
+			}
+				#salsa{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;
+			}
+
+			#guacamole{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;
+			}
+				#Taquitos{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;}
+
+					#BeanDip{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;}
+					#eggroll{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;}
+					#picodegallo{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;}
+
+			header, footer{
+				padding: 1% 4%
+			}
+	}
+@media screen and(max-width: 600px){
+	#content{
+	width: auto;
+	float: none;
+		}
+	#salsa{
+	width: auto;
+	float: left;
+	margin-left: 0px;
+		}
+			#guacamole{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+
+					#Taquitos{
+	width: auto;
+	float: left;
+	margin-left: 0px;
+		}
+#beandip{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+				#eggroll{
+	width: auto;
+	float: left;
+	margin-left: 0px;}
+	#picodegalo{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+		
+	#sidebar{
+	width: auto;
+	float: none;
+		}
+	}
+/**for 480px or less**/
+@media screen and(max-width: 480px){
+header{
+	height: auto;
+	}
+	h1{
+		font-size: 2em;
+	}	
+	#sidebar{
+		display: none;
+	}
+			}
+	#content{
+		background-color: #f8f8f8;
+	}
+	#sidebar{
+		background-color: #f0efef;
+	}
+		header, #content, #middle, #sidebar{
+			margin-bottom: 5px
+		}	
+		#pagewrap, header, #content, #middle, #sidebar, footer{
+			border: solid 1px #ccc;
+		}
+		</style>
+</head>
+<body>
+<div id="pagewrap">
+<header id="logo"><img src="img/spoon.jpg" height="40px" width="40px"><span id="logobg">ElChapo's</span></header>
+    
+    <nav id="navigation">
+		<ul>
+  			<li><a class="active" href="Menu Project.html">Home</a></li>
+  			<li><a href="appetizers.html">Appetizers</a></li>
+  			<li><a href="Drinks.html">Drinks</a></li>
+  			<li><a href="Entrée.html">Entrée</a></li>
+		</ul>
+   </nav>
+
+	 <header>
+	<h1><a href= "Menu project.html">ElChapo's</a>
+	<center><font size = "27">Appetizers Menu</font></center>
+		</h1>
+	 </header>
+	 	<section id= "Salsa">
+	 		<h2>
+	 			<font size="24">Salsa</font>
+	 			<p>Price: 2.00$</p>
+	 			<p>Description: tomato, basil, garlic, and onions chopped up into a paste for your enjoyment</p>
+	 		</h2>
+	 			<img src="img/salsa.jpg" height = "370px" width = "300px">
+	 	</section>
+	 	<section id= "Guacamole">
+	 		<h2><font size="24">Guacamole</font>
+	 		<p>Price:2.00$</p>
+	 		<p>Description: home-grown avacados mashed together with a slew of secret ingredients</p>
+	 		</h2>
+	 			<img src="img/Guacamole.jpg" height = "370px" width = "300px">
+
+	 	</section>
+	 	<section id="Taquitos">
+	 	<h2>
+	 		<font size="24">
+	 			Taquitos
+	 		</font>
+	 	</h2>
+	 		<p>Price:4.50$</p>
+	 		<p>Description: rolled chicken wraps with traditional seasonings that feed the Whole table.</p>
+	 			<img src="img/Taquitos.jpg" height="370px" width="300px">
+	 	</section>
+	 	<section id="BeanDip">
+	 	<h2>
+	 		<font size="24">
+	 			Bean Dip
+	 		</font>
+	 	</h2>
+	 		<p>Price:5.00$</p>
+	 		<p>Description: Dip made of beans grown locally to sate the family</p>
+	 			<img src="img/BeanDip.jpg" height="370px" width="300px">
+	 			</section>
+	 			<section id="EggRoll">
+	 	<h2>
+	 		<font size="20">
+	 			Mexican-Style EggRoll
+	 		</font>
+	 	</h2>
+	 		<p>Price:5.35$</p>
+	 		<p>Description: Classic mexican ingredients combined with eastern foods </p>
+	 			<img src="img/EggRolls.jpg" height="370px" width="300px">
+	 			</section>
+	 			<section id="PicoDeGallo">
+	 	<h2>
+	 		<font size="20">
+	 			Pico De Gallo
+	 		</font>
+	 	</h2>
+	 		<p>Price:3.00$</p>
+	 		<p>Description: a type of ancient salsa that is still prevelant in today's pallets</p>
+	 			<img src="img/PicoDeGallo.jpg" height="370px" width="300px">
+	 			</section>
+	 		<footer><p>*all products are gluten-free</p></footer>
+	 	</div>
+</body>
+</html>

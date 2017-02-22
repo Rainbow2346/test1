@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Home
+		</title>
+	<style type="text/css">
+	*{ 
+	font-family: 'Quicksand', cursive;
+	color: rgb(154,45,191);
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+		body{background-image: url("img/Mexico.gif");}
+		#pagewrap{
+			padding: 5px;
+			width: 1200px;
+			margin: 20px auto;
+			background-color:orange;
+		}
+		#appetizers{
+		padding: 5px;
+			width: 40%;
+			margin: 0px 5px 5px 5px;
+		  display: inline-block; }
+
+#entrée{
+		width:40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		float: right;
+		  }
+	
+#Drinks{
+		width: 40%;
+		padding:5px 15px;
+		margin: 0px 5px 5px 5px;
+		display: inline-block;}
+
+
+
+/*****************************************
+	******************************************
+	media queries
+	******************************************
+	*****************************************/
+	/*For 980px or less*/
+	@media screen and (max-width:980px){
+			#pagewrap{
+				width: 94%
+			}
+			#content{
+				width: 41%;
+				padding:1% 4%;
+			}
+				#salsa{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;
+			}
+
+			#guacamole{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;
+			}
+				#Taquitos{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;}
+
+					#Beandip{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;}
+					#eggroll{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:left;}
+					#picode{
+				width:41%;
+				padding:1% 4%;
+				margin:0px 0px 5px 5px;
+				float:right;}
+
+			header, footer{
+				padding: 1% 4%
+			}
+	}
+@media screen and(max-width: 600px){
+	#content{
+	width: auto;
+	float: none;
+		}
+	#Fajita{
+	width: auto;
+	float: left;
+	margin-left: 0px;
+		}
+			#Enchilada{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+
+					#quesadilla{
+	width: auto;
+	float: left;
+	margin-left: 0px;
+		}
+#Tacos{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+				#pilaf{
+	width: auto;
+	float: left;
+	margin-left: 0px;}
+	#Cemitapoblana{
+	width: auto;
+	float: right;
+	margin-left: 0px;
+		}
+		
+	#sidebar{
+	width: auto;
+	float: none;
+		}
+	}
+/**for 480px or less**/
+@media screen and(max-width: 480px){
+header{
+	height: auto;
+	}
+	h1{
+		font-size: 2em;
+	}	
+	#sidebar{
+		display: none;
+	}
+			}
+	#content{
+		background-color: #f8f8f8;
+	}
+	#sidebar{
+		background-color: #f0efef;
+	}
+		header, #content, #middle, #sidebar{
+			margin-bottom: 5px
+		}	
+		#pagewrap, header, #content, #middle, #sidebar, footer{
+			border: solid 1px #ccc;
+		}
+		</style>
+</head>
+<body>
+
+
+<div id="w">
+<header id="logo"><img src="img/spoon.jpg" height="40px" width="40px"><span id="logobg">ElChapo's</span></a></header>
+    
+    <nav id="navigation">
+		<ul>
+  			<li><a class="active" href="Menu Project.html">Home</a></li>
+  			<li><a href="appetizers.html">Appetizers</a></li>
+  			<li><a href="Drinks.html">Drinks</a></li>
+  			<li><a href="Entrée.html">Entrée</a></li>
+		</ul>
+   </nav>
+
+
+
+
+	<div id= "pagewrap">
+	 <header>
+	<center>
+	<h1>
+	<font size = "27">ElChapo's Menu</font>
+		</h1>
+			</center>
+	 </header>
+	 	<section id= "appetizers">
+	 		<h2>
+	 			<a href = "Appetizers.html"> Appetizers </a>
+	 		</h2>
+	 			<img src="img/salsa.jpg" height = "370px" width = "300px">
+	 	</section>
+	 	<section id= "entrée">
+	 		<h2>
+	 		<a href = "Entrée.html">Entrée</a>
+	 		</h2>
+	 			<img src="img/quesadilla.jpg" height = "370px" width = "300px">
+
+	 	</section>
+	 	<section id="Drinks">
+	 	<h2>
+	 	<a href="Drinks.html">	Drinks </a>
+	 		</h2>
+	 		<img src="img/pinacolada.jpg" height="370px" width="300px">
+	 	</section>
+	 	<footer><p>
+	 	We built this restraunt to give classic Mexican cuisine to those deprived of our culture.
+	 		</p></footer>
+</body>
+</html>
